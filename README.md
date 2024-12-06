@@ -21,5 +21,7 @@
 
 
 **PostgreSQL:** Used as a data warehouse for efficient data storage and retrieval.
+
 **R:** Used for data analysis, visualization, and portfolio optimization.By leveraging this robust data pipeline and advanced analytical techniques, we were able to effectively extract, transform, analyze, and visualize financial data to support informed investment decisions.
+
 **Excel:** custom trading day calendar to ensure data completeness and facilitate time-based aggregations.
