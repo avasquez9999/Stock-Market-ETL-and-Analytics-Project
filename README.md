@@ -31,16 +31,27 @@
 To effectively follow these steps, you'll need:
 
 pgAdmin 4: A powerful database management tool to create and manage PostgreSQL databases.
+
 PostgreSQL Database: A database server installed on your local machine or a cloud-based provider.
+
 R and RStudio: A statistical computing environment for data analysis and visualization.
+
 The provided database restore file: This file contains the schema and data for your stock market analysis.
+
 Steps to Follow:
 
 Install pgAdmin 4: Download and install pgAdmin 4 from the official website.
+
 Create a New Database:
+
 Open pgAdmin 4 and create a new database named "stockMarket".
+
 Restore the Database: Use the provided restore file to restore the database.  The specific steps may vary depending on your database server configuration. Consult the pgAdmin 4 documentation for detailed instructions.
+
 Connect to the Database from R:
+
 Use the DBI package to connect to the PostgreSQL database:
-Quiry from r
-Run analysis using r file
+
+Query data using DBI package in r
+
+Run analysis using my r file
