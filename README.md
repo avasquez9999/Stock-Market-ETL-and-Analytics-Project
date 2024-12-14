@@ -1,5 +1,8 @@
 ## SQL ELT Project with Analysis on Stock Market Data
 
+**Description:**
+This project involved developing an R script to automate the process of obtaining electricity load data from the New York Independent System Operator (NYISO) website. The script periodically scrapes the website, cleans and formats the extracted data, and then loads it into a designated table within a PostgreSQL database. Prior to data insertion, a database was created, and a user role with appropriate reader-writer privileges was established to facilitate seamless communication and data transfer between R and the PostgreSQL server. The requested cleaned and formatted data within the database is the foundation for building a predictive electricity load forecasting model using the Fable Package in R.
+
 
 **Data Extraction:** Extracted financial data from diverse sources.
 
@@ -22,36 +25,11 @@
 
 **PostgreSQL:** Used as a data warehouse for efficient data storage and retrieval.
 
-**R:** Used for data analysis, visualization, and portfolio optimization.By leveraging this robust data pipeline and advanced analytical techniques, we were able to effectively extract, transform, analyze, and visualize financial data to support informed investment decisions.
+**R:** Used for data analysis, visualization, and portfolio optimization. By leveraging this robust data pipeline and advanced analytical techniques, we were able to effectively extract, transform, analyze, and visualize financial data to support informed investment decisions.
 
 **Excel:** custom trading day calendar to ensure data completeness and facilitate time-based aggregations.
 
-##Instructions
+**Fable** Used Rob Hyndman Forecasting package using r
 
-To effectively follow these steps, you'll need:
 
-pgAdmin 4: A powerful database management tool to create and manage PostgreSQL databases.
 
-PostgreSQL Database: A database server installed on your local machine or a cloud-based provider.
-
-R and RStudio: A statistical computing environment for data analysis and visualization.
-
-The provided database restore file: This file contains the schema and data for your stock market analysis.
-
-Steps to Follow:
-
-Install pgAdmin 4: Download and install pgAdmin 4 from the official website.
-
-Create a New Database:
-
-Open pgAdmin 4 and create a new database named "stockMarket".
-
-Restore the Database: Use the provided restore file to restore the database.  The specific steps may vary depending on your database server configuration. Consult the pgAdmin 4 documentation for detailed instructions.
-
-Connect to the Database from R:
-
-Use the DBI package to connect to the PostgreSQL database:
-
-Query data using DBI package in r
-
-Run analysis using my r file
